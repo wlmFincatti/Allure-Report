@@ -35,7 +35,14 @@ ou
 Para instalação do Allure siga os passos descritos na documentação do site abaixo:
 https://docs.qameta.io/allure/
 
+<<<<<<< HEAD
 <strong>Obs.:</strong> Para que a instalação seja feita pela primeira opção é obrigatório ter instalado o Nodejs2.
+=======
+info
+Obs.:</b> Para que a instalação seja feita pela primeira opção é obrigatório ter instalado o Nodejs2.
+:
+
+>>>>>>> 719df4d08cca8cc53de018fbb110c709c47efb79
 
 #### Executar teste de componente da aplicação
 ```shell
@@ -97,4 +104,7 @@ docker-compose up -d allure
 ```
 ## Créditos
 [![](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/images/0)](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/links/0)[![](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/images/1)](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/links/1)[![](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/images/2)](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/links/2)[![](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/images/3)](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/links/3)[![](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/images/4)](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/links/4)[![](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/images/5)](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/links/5)[![](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/images/6)](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/links/6)[![](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/images/7)](https://sourcerer.io/fame/wlmFincatti/wlmFincatti/allure-report/links/7)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 719df4d08cca8cc53de018fbb110c709c47efb79
