@@ -36,7 +36,10 @@ ou
 Para instalação do Allure siga os passos descritos na documentação do site abaixo:
 https://docs.qameta.io/allure/
 
-Obs.: Para que a instalação seja feita pela primeira opção é obrigatório ter instalado o Nodejs2.
+:::info
+Obs.:</b> Para que a instalação seja feita pela primeira opção é obrigatório ter instalado o Nodejs2.
+:::
+
 
 #### Executar teste de componente da aplicação
 ```shell
@@ -68,7 +71,8 @@ docker-compose up -d allure
 ## Conf report
 
 O arquivo environment.properties você configura oque será exibido no widget environment do report na tag overview, o mesmo deve estar dentro do diretório allure-results.
-```yaml
+
+```yaml=
 Navegador = Firefox
 Browser.Version = 67.0.4
 Stand = Production
@@ -76,6 +80,7 @@ Product.Name = Allure Report Example
 ```
 
 O arquivo categories.json serve para customizar o nome das categorias, o mesmo deve estar dentro do diretório allure-results.
+
 ```json
 [
   {
@@ -87,6 +92,7 @@ O arquivo categories.json serve para customizar o nome das categorias, o mesmo d
 ]
 ```
 O arquivo allure.properties serve para definir qual será o path para o allure-results, adicionar links, issues, entre outros. O mesmo deve ficar dentro do diretório /test/java/resources
+
 ```yaml=
 allure.results.directory=allure-results
 allure.link.mylink.pattern=https://example.org/mylink/{}
