@@ -97,3 +97,24 @@ allure.link.issue.pattern=https://jiracloud.cit.com.br/browse/{}
 allure.link.tms.pattern=https://example.org/tms/{}
 ```
 ## Créditos
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>io.github.osvaldjr</groupId>
+        <artifactId>easy-cucumber</artifactId>
+        <version>0.0.4</version>
+    </dependency>
+</dependencies>    
+<dependencyManagement>
+   <dependencies>
+       <dependency>
+           <groupId>io.github.osvaldjr</groupId>
+           <artifactId>easy-cucumber</artifactId>
+           <version>0.0.4</version>
+           <type>pom</type>
+           <scope>import</scope>
+       </dependency>
+   </dependencies>
+</dependencyManagement>
+```
