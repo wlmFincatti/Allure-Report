@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Step with fail",
+    "matchedStatuses": [
+      "failed"
+    ]
+  },
+  {
+    "name": "step ok",
+    "matchedStatuses": [
+      "passed"
+    ]
+  },
+  {
+    "name": "Step broken",
+    "matchedStatuses": [
+      "broken"
+    ]
+  },
+  {
+    "name": "Step skipped",
+    "matchedStatuses": [
+      "skipped"
+    ]
+  }
+]
