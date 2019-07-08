@@ -103,6 +103,22 @@ Por padrão a aplicação cria a pasta allure-results contendo os resultados dos
 
 #### Gerar Reports dos testes
 
+No diretorio onde se encontra a pasta allure-results exetura os comando abaixo:
 
+- para gerar relatorio estatico
+```shell
+allure generate allure-results --clean -o allure-report
+```
+
+- para gerar relatorio em um servidor local
+```shell
+allure serve allure-results/
+```
+
+- Para gerar Report dinamicamente
+
+```shell
+Export PWD="local do seu diretorio allure-results"
+docker-compose up -d allure
+```
 ## Créditos
-[![](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/images/0)](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/links/0)[![](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/images/1)](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/links/1)[![](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/images/2)](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/links/2)[![](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/images/3)](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/links/3)[![](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/images/4)](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/links/4)[![](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/images/5)](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/links/5)[![](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/images/6)](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/links/6)[![](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/images/7)](https://sourcerer.io/fame/LVCarnevalli/LVCarnevalli/javaclean/links/7)
