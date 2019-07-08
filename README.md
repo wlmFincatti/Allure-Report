@@ -36,10 +36,7 @@ ou
 Para instalação do Allure siga os passos descritos na documentação do site abaixo:
 https://docs.qameta.io/allure/
 
-:::info
-<b>Obs.:</b> Para que a instalação seja feita pela primeira opção é obrigatório ter instalado o Nodejs2.
-:::
-
+Obs.: Para que a instalação seja feita pela primeira opção é obrigatório ter instalado o Nodejs2.
 
 #### Executar teste de componente da aplicação
 ```shell
@@ -71,7 +68,7 @@ docker-compose up -d allure
 ## Conf report
 
 O arquivo environment.properties você configura oque será exibido no widget environment do report na tag overview, o mesmo deve estar dentro do diretório allure-results.
-```yaml=
+```yaml
 Navegador = Firefox
 Browser.Version = 67.0.4
 Stand = Production
@@ -98,23 +95,3 @@ allure.link.tms.pattern=https://example.org/tms/{}
 ```
 ## Créditos
 
-```xml
-<dependencies>
-    <dependency>
-        <groupId>io.github.osvaldjr</groupId>
-        <artifactId>easy-cucumber</artifactId>
-        <version>0.0.4</version>
-    </dependency>
-</dependencies>    
-<dependencyManagement>
-   <dependencies>
-       <dependency>
-           <groupId>io.github.osvaldjr</groupId>
-           <artifactId>easy-cucumber</artifactId>
-           <version>0.0.4</version>
-           <type>pom</type>
-           <scope>import</scope>
-       </dependency>
-   </dependencies>
-</dependencyManagement>
-```
