@@ -35,13 +35,7 @@ ou
 Para instalação do Allure siga os passos descritos na documentação do site abaixo:
 https://docs.qameta.io/allure/
 
-<<<<<<< HEAD
 <strong>Obs.:</strong> Para que a instalação seja feita pela primeira opção é obrigatório ter instalado o Nodejs2.
-=======
-
-Obs.: Para que a instalação seja feita pela primeira opção é obrigatório ter instalado o Nodejs2.
-
->>>>>>> 719df4d08cca8cc53de018fbb110c709c47efb79
 
 #### Executar teste de componente da aplicação
 ```shell
